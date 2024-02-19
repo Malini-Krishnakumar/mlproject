@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 HYPHEN_E_DOT = '-e .'
-def get_requirments(file_path:str)->list[str]:
+def get_requirments(file_path:str)->"list[str]":
     '''
     this fuction will return the list of requirments
     '''
